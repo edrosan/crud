@@ -1,0 +1,81 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color:rgb(245, 245, 245);
+    font-family: 'Roboto', sans-serif;
+}
+h1 {text-align: center;}
+#cabecera p{
+    text-align: center;
+    font-size: 1.5em;
+}
+.tarjetaClase p {
+    margin-left:5%;
+    margin-right:5%;
+    text-align: justify;
+}
+
+#cabecera{
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+#formulario{
+    grid-column-start: 1;
+    grid-column-end: 3;
+   
+}
+#formulario input, button, textarea{
+    display: block;
+    margin-left: 10%;
+    margin-bottom: 15%;
+    width: 80%;
+}
+#div1{
+    grid-column-start: 3;
+    grid-column-end: -1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.tarjetaFormulario{
+    background-color:rgb(255, 255, 255);
+    border: 1px solid #ddd;
+    border-radius:10px;
+    margin: 5% ;
+    padding: 3% ;
+}
+.izquierda{
+    height: 30px;
+}
+.tarjetaClase img{
+    margin: 5%;
+    width: 90%;
+    height: 400px;
+    object-fit: cover;
+    border-radius:5px;
+}
+.tarjetaClase{
+    background-color:rgb(255, 255, 255);
+    border: 1px solid #ddd;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom:5%;
+    margin-top:5%;
+    border-radius:10px;
+}
+
+#cabecera{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px .1px rgba(214, 214, 214, 0.281);
+    border-radius:10px;
+    border: 1px solid #ddd;
+}
+#cabecera div{
+    margin-left:10%;
+}
+#cabecera img{
+    margin-top: 3.75%;
+}
