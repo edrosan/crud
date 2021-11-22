@@ -112,6 +112,9 @@ function editar(e) {
         descripcionNuevo.appendChild(texto);
         descripcionNuevo.setAttribute("id", "descripcion" + id);
         tarjeta.replaceChild(descripcionNuevo, descripcion);
+        document.getElementById("titulo").value = "";
+        document.getElementById("imagen").value = "";
+        document.getElementById("descripcion").value = "";
     }
 }
 
