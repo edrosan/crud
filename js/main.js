@@ -59,6 +59,9 @@ function c() {
 
         element.appendChild(descripcion);
         contador++;
+        document.getElementById("titulo").value = "";
+        document.getElementById("imagen").value = "";
+        document.getElementById("descripcion").value = "";
     }
 
 
